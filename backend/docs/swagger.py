@@ -4,9 +4,9 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Phone service API",
+      title="TeleMessage bridge API",
       default_version='v1',
-      description="Phone service"
+      description="TeleMessage bridge"
    ),
    public=True,
 )
